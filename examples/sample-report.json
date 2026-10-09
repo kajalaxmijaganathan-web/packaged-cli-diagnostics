@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "actual": "3.12.1",
+      "message": "Python version meets requirement.",
+      "name": "python_version",
+      "required": "3.10",
+      "status": "pass"
+    },
+    {
+      "actual_free_mb": 4096,
+      "message": "Available disk space meets requirement.",
+      "name": "disk_space",
+      "required_free_mb": 500,
+      "status": "pass"
+    },
+    {
+      "message": "GITHUB_TOKEN is missing.",
+      "name": "environment_variable",
+      "status": "fail",
+      "variable": "GITHUB_TOKEN"
+    }
+  ],
+  "platform": "win32",
+  "python": "3.12.1",
+  "schema_version": 1,
+  "status": "unhealthy",
+  "summary": {
+    "errors": 0,
+    "failed": 1,
+    "passed": 2,
+    "total": 3
+  },
+  "tool": "devcheck"
+}

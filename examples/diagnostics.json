@@ -1,0 +1,6 @@
+{
+  "min_python": "3.10",
+  "min_free_disk_mb": 500,
+  "required_env": ["GITHUB_TOKEN"],
+  "tools": ["git", "python", "pip", "node"]
+}
